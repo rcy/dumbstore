@@ -3,7 +3,7 @@ class Info < Dumbstore::App
   author 'Ryan Yeske'
   author_url 'http://ryanyeske.com/'
   description <<-DESCRIPTION
-  Get info for a dumbstore app. Text 'info' followed by the the name of the app.
+  Get info for a dumbstore app. Text 'info' followed by the name of the app.
   DESCRIPTION
 
   def info_for id
